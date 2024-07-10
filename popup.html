@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Websites Blocker</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <h1>Websites Blocker</h1>
+        <p>
+            <button id="nextOnOff"></button>
+            <span>Current: </span><span id="textOnOff"></span>
+        </p>
+
+        <div>
+            <label>URL:</label><span id="flashMessage"></span><br>
+            <input type="text" id="urlInput" size="60">
+            <button id="blockButton">Block</button>
+        </div>
+        
+        <br><hr>
+
+        <div>
+            <table>
+                <tbody>
+                    <tr><th class="leftCol">Options</th><th class="rightCol">Blacklist</th></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script type="module" src="popup.js"></script>
+    </body>
+</html>
